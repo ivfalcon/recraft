@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "build": "deno run --unstable --allow-read --allow-write --allow-run --allow-env bundle.ts"
+  },
+  "compilerOptions": {
+    "lib": ["ESNext", "dom", "deno.ns"],
+    "jsx": "react-jsx"
+  }
+}
